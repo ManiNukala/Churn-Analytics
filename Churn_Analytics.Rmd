@@ -1,9 +1,14 @@
 ---
 title: "Churn_analytics"
-output: 
-  html_document:
-    keep_md: true
+output: rmarkdown::github_document
 ---
+```{r, echo = FALSE}
+library(knitr)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
+```
+```
 
 ## R Markdown
 ---
