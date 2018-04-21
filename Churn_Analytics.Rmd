@@ -2,11 +2,8 @@
 title: "Churn_analytics"
 output: rmarkdown::github_document
 ---
-```{r, echo = FALSE}
-library(knitr)
-knitr::opts_chunk$set(
-  fig.path = "README_figs/README-"
-)
+```{r}
+knitr::opts_chunk$set(collapse=TRUE, comment="##", fig.retina=2, fig.path = "README_figs/README-")
 ```
 ```
 
