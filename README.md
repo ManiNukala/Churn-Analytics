@@ -14,3 +14,5 @@ tech support, and streaming TV and movies.
 3)Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and
 total charges.
 4)Demographic info about customers – gender, age range, and if they have partners and dependents.
+
+Churn_Analytics.md and Churn_Analytics.Rmd consist of  the same code. Only difference is that outputs can be reviewed in md while a detailed step by step walk through is given in the Rmd file.
