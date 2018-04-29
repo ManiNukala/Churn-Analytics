@@ -423,7 +423,7 @@ confusionMatrix(rfpro_predict,test2$Churn)
 
 
 ---
-There isn't much of a significant change from our last model. Compared to the results from 10 fold cv, we can infer presence of over fitting.
+There isn't much of a significant change from our last model. Compared to the results from 10 fold cv, we can infer presence of over fitting. This is beacuse SMOTE has applied various numerical transformations to over sampled training data. While it did help out in improving sensitivity, these examples probably can't be seen in the testing set. Overfitting can be avoided if we applied similar numerical transformations (done by SMOTE) on our testing data. However, it is not possible to this without oversampling the minority class in the testing data.
 
 Let us now evaluate by AUC value.
 ---
@@ -436,5 +436,5 @@ auc
 ```
 
 ---
-However based on an improved AUC score of about 83%, this appears to be a more reliable model.
+However, based on the results in improvement of sensitivity this can still be considered a more reliable model.
 ---
