@@ -6,7 +6,7 @@ Churn\_analytics
 \#\# R Markdown
 ---------------
 
-In this project we will be doing exploratory data analysis and build high performance models to predict customer churn. Let us start off by importing required libraries and reading in our data. ---
+In this project we will be doing exploratory d ta analysis and build high performance models to predict customer churn. Let us start off by importing required libraries and reading in our data. ---
 
 ``` r
 library(tidyverse)
